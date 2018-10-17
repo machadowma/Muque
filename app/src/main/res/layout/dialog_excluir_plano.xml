@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textViewCertezaExcluir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/certeza_excluir_plano" />
+
+    <RadioButton
+        android:id="@+id/radioButtonCertezaExcluirPlano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewCertezaExcluir"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:text="@string/sim_excluir_plano" />
+
+    <Button
+        android:id="@+id/buttonCertezaExcluirPlano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButtonCertezaExcluirPlano"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAlert"
+        android:text="@string/excluir" />
+
+    <Button
+        android:id="@+id/buttonCancelaExcluirPlano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButtonCertezaExcluirPlano"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/buttonCertezaExcluirPlano"
+        android:layout_toRightOf="@+id/buttonCertezaExcluirPlano"
+        android:text="@string/cancelar" />
+</RelativeLayout>

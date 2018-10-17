@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlterarPlanoActivity"
+    android:background="@drawable/muque_cinza">
+
+    <EditText
+        android:id="@+id/editTextAlterarNomePlano"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/nome_plano"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAlterarPlano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAlterarNomePlano">
+
+        <TextView
+            android:id="@+id/textViewAlterarDiasSemana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/um_dia_por_semana"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+        <SeekBar
+            android:id="@+id/seekBarAlterarDiasSemana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:max="6"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="131dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAlterarPlano"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/confirmar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutAlterarPlano" />
+
+</android.support.constraint.ConstraintLayout>

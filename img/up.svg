@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="up.svg"
+   inkscape:export-filename="C:\Users\macha\AndroidStudioProjects\Muque\app\src\main\res\drawable\up.png"
+   inkscape:export-xdpi="36"
+   inkscape:export-ydpi="36">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.77170139"
+     inkscape:cx="394.8546"
+     inkscape:cy="530.52072"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#79b903;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path826"
+       cx="95.627968"
+       cy="127.28869"
+       r="32.883926"
+       inkscape:export-filename="C:\Users\macha\AndroidStudioProjects\Muque\app\src\main\res\drawable\down.png"
+       inkscape:export-xdpi="36.41"
+       inkscape:export-ydpi="36.41" />
+    <path
+       style="fill:none;stroke:#79b903;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 76.976986,133.6179 19.597008,-19.30849 18.633586,19.70646"
+       id="path828"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\macha\AndroidStudioProjects\Muque\app\src\main\res\drawable\down.png"
+       inkscape:export-xdpi="36.41"
+       inkscape:export-ydpi="36.41" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#79b903;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path826-6"
+       cx="92.914276"
+       cy="220.88571"
+       r="32.883926"
+       inkscape:export-filename="C:\Users\macha\AndroidStudioProjects\Muque\app\src\main\res\drawable\down.png"
+       inkscape:export-xdpi="36.41"
+       inkscape:export-ydpi="36.41" />
+    <path
+       style="fill:none;stroke:#79b903;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 113.18386,211.48737 93.693853,230.90384 74.951657,211.30064"
+       id="path828-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\macha\AndroidStudioProjects\Muque\app\src\main\res\drawable\down.png"
+       inkscape:export-xdpi="36.41"
+       inkscape:export-ydpi="36.41" />
+  </g>
+</svg>

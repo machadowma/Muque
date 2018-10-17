@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Geral -->
+    <string name="app_name">Muque</string>
+    <string name="action_settings">Settings</string>
+    <string name="excluir">Excluir</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="criar">Criar</string>
+    <string name="ordem_alterada">Ordem alterada!</string>
+    <string name="preencha">Preencha os campos necessários!</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+
+    <!-- Títulos -->
+    <string name="title_activity_gerenciar_plano">Plano de Treinamento</string>
+    <string name="title_activity_criar_plano">Novo Plano</string>
+    <string name="title_activity_alterar_plano">Alterar Plano</string>
+    <string name="title_activity_dia">Dia de Treinamento</string>
+    <string name="title_activity_criar_exercicio">Novo Exercício</string>
+
+    <!-- Plano de treinamento -->
+    <string name="nome_plano">Nome do Plano</string>
+    <string name="digite_nome_plano">Digite o nome do novo plano de treinamento. Por exemplo: Masculino iniciante, 3x por semana, Projeto verão, etc.</string>
+    <string name="plano_criado">Plano criado com sucesso!</string>
+    <string name="plano_alterado">Plano alterado com sucesso!</string>
+    <string name="plano_excluido">Plano excluído com sucesso!</string>
+    <string name="certeza_excluir_plano">Você tem certeza de que deseja excluir esse plano de treinamento e todos os exercícios contidos nele?</string>
+    <string name="sim_excluir_plano">Sim, desejo excluir esse plano de treinamento.</string>
+    <string name="um_dia_por_semana">1 dia por semana</string>
+    <string name="dois_dias_por_semana">2 dias por semana</string>
+    <string name="tres_dias_por_semana">3 dias por semana</string>
+    <string name="quatro_dias_por_semana">4 dias por semana</string>
+    <string name="cinco_dias_por_semana">5 dias por semana</string>
+    <string name="seis_dias_por_semana">6 dias por semana</string>
+    <string name="sete_dias_por_semana">7 dias por semana</string>
+
+    <!-- Exercício -->
+    <string name="exercicio_criado">Exercício criado com sucesso!</string>
+    <string name="exercicio_editado">Exercício editado com sucesso!</string>
+    <string name="nome_exercicio">Nome</string>
+    <string name="cardio">Cárdio</string>
+    <string name="musculacao">Musculação</string>
+    <string name="grupo_muscular">Grupo muscular</string>
+    <string name="carga">Carga(Kg)</string>
+    <string name="serie">Séries</string>
+    <string name="repeticoes">Repetições</string>
+    <string name="tempo">Tempo (min)</string>
+    <string name="distancia">Distância (Km)</string>
+    <string name="certeza_excluir_exercicio">Você tem certeza de que deseja excluir esse exercício?</string>
+    <string name="exercicio_excluido">Exercício excluído com sucesso!</string>
+    <string name="kg">Kg</string>
+    <string name="km">Km</string>
+    <string name="minutos">minutos</string>
+    <string name="series_repeticoes">%1$s séries de %2$s repetições</string>
+
+
+</resources>
