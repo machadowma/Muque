@@ -45,8 +45,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         listaPlanos = (ListView) findViewById(R.id.listaPlanos);
-        View footerView = getLayoutInflater().inflate(R.layout.footer_layout, null);
-        listaPlanos.addFooterView(footerView);
 
         FloatingActionButton fab_incluir_plano = (FloatingActionButton) findViewById(R.id.fab_incluir_plano);
         fab_incluir_plano.setOnClickListener(new View.OnClickListener() {

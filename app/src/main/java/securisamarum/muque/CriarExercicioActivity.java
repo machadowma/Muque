@@ -60,10 +60,9 @@ public class CriarExercicioActivity extends AppCompatActivity {
         NovoExercSpinnerGrupoMusc = (Spinner) findViewById(R.id.NovoExercSpinnerGrupoMusc);
 
         String[] array_grupos={"Abdômen","Membros Inferiores","Peito","Tríceps","Bíceps","Costas","Ombro","Trapézio"};
-        Spinner spin = (Spinner) findViewById(R.id.NovoExercSpinnerGrupoMusc);
         ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_spinner_item,array_grupos);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spin.setAdapter(adapter);
+        NovoExercSpinnerGrupoMusc.setAdapter(adapter);
 
         radioGroupNovoExerc.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override

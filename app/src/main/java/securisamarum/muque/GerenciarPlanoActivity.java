@@ -31,6 +31,7 @@ public class GerenciarPlanoActivity extends AppCompatActivity {
     private SQLiteDatabase bancoDados;
     private ImageButton buttonExcluirPlano, buttonEditarPlano;
     private ListView listViewListaDiasPlano;
+    private String[] array_grupos={"Abdômen","Membros Inferiores","Peito","Tríceps","Bíceps","Costas","Ombro","Trapézio"};
 
 
     @Override
@@ -157,7 +158,22 @@ public class GerenciarPlanoActivity extends AppCompatActivity {
                 listViewListaDiasPlano.setAdapter(adapter);
 
                 for(int i=1;i<=qtde_dias;i++){
-                    arrayDias.add("Dia: "+i);
+                    String diaStr = "Dia: "+i;
+                    cursor = bancoDados.rawQuery("SELECT DISTINCT id_grupo_muscular FROM exercicio WHERE id_plano_de_treinamento = "+idPlano.toString()+" AND dia_de_treinamento = "+i,null);
+                    if(cursor.moveToFirst()) {
+                        diaStr = diaStr + ": ";
+                        do{
+                            if(cursor.getInt(0)!=0) {
+                                diaStr = diaStr + " " + array_grupos[cursor.getInt(0) - 1] + ",";
+                            } else {
+                                diaStr = diaStr + " Cárdio,";
+                            }
+                            System.out.println(diaStr);
+                        }while (cursor.moveToNext());
+                        diaStr = diaStr.substring(0, diaStr.length() - 1);
+                        diaStr = diaStr + ".";
+                    }
+                    arrayDias.add(diaStr);
                 }
             }
             bancoDados.close();
